@@ -1,0 +1,32 @@
+[
+    {
+        "idRegistro": 1,
+        "codVaca": "2010",
+        "codBecerro": "2014",
+        "nameVaca": "Orejinegara",
+        "nameBecerro": "Pintao",
+        "fechaNacBecerro": "20/01/2014",
+        "SexoBecerro": "Macho",
+        "Raza": "Girolando"
+    },
+    {
+        "idRegistro": 2,
+        "codVaca": "2014",
+        "codBecerro": "2019",
+        "nameVaca": "Mandarina",
+        "nameBecerro": "La pintada",
+        "fechaNacBecerro": "02/04/2019",
+        "SexoBecerro": "Hembra",
+        "Raza": "Girolanda"
+    },
+    {
+        "idRegistro": 3,
+        "codVaca": "2016",
+        "codBecerro": "2019",
+        "nameVaca": "La guayaba",
+        "nameBecerro": "La Roja",
+        "fechaNacBecerro": "02/07/2019",
+        "SexoBecerro": "Hembra",
+        "Raza": "Girolanda"
+    }
+]
