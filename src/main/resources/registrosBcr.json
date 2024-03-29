@@ -6,8 +6,8 @@
         "nameVaca": "Orejinegara",
         "nameBecerro": "Pintao",
         "fechaNacBecerro": "20/01/2014",
-        "SexoBecerro": "Macho",
-        "Raza": "Girolando"
+        "sexoBecerro": "Macho",
+        "raza": "Girolando"
     },
     {
         "idRegistro": 2,
@@ -16,8 +16,8 @@
         "nameVaca": "Mandarina",
         "nameBecerro": "La pintada",
         "fechaNacBecerro": "02/04/2019",
-        "SexoBecerro": "Hembra",
-        "Raza": "Girolanda"
+        "sexoBecerro": "Hembra",
+        "raza": "Girolanda"
     },
     {
         "idRegistro": 3,
@@ -26,7 +26,7 @@
         "nameVaca": "La guayaba",
         "nameBecerro": "La Roja",
         "fechaNacBecerro": "02/07/2019",
-        "SexoBecerro": "Hembra",
-        "Raza": "Girolanda"
+        "sexoBecerro": "Hembra",
+        "raza": "Girolanda"
     }
 ]

@@ -17,7 +17,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.software2ex.apiRest.model.RegistroB;
 
 @RestController
-@RequestMapping("/api/registroBcr")
+@RequestMapping("/api/registrob")
 
 public class RegistroBController {
     private List<RegistroB>registrosBcr;
