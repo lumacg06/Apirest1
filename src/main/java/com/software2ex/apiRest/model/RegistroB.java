@@ -7,8 +7,8 @@ public class RegistroB {
     private String nameVaca;
     private String nameBecerro;
     private String fechaNacBecerro;
-    private String SexoBecerro;
-    private String Raza;
+    private String sexoBecerro;
+    private String raza;
     
     
     
@@ -17,18 +17,20 @@ public class RegistroB {
 
 
 
-    public RegistroB(Long idRegistro, String idVaca, String idBecerro, String nameVaca, String nameBecerro,
+    
+
+
+    public RegistroB(Long idRegistro, String codVaca, String codBecerro, String nameVaca, String nameBecerro,
             String fechaNacBecerro, String sexoBecerro, String raza) {
         this.idRegistro = idRegistro;
-        this.codVaca = idVaca;
-        this.codBecerro = idBecerro;
+        this.codVaca = codVaca;
+        this.codBecerro = codBecerro;
         this.nameVaca = nameVaca;
         this.nameBecerro = nameBecerro;
         this.fechaNacBecerro = fechaNacBecerro;
-        SexoBecerro = sexoBecerro;
-        Raza = raza;
+        this.sexoBecerro = sexoBecerro;
+        this.raza = raza;
     }
-
 
 
     public Long getIdRegistro() {
@@ -36,11 +38,9 @@ public class RegistroB {
     }
 
 
-
     public void setIdRegistro(Long idRegistro) {
         this.idRegistro = idRegistro;
     }
-
 
 
     public String getCodVaca() {
@@ -48,83 +48,56 @@ public class RegistroB {
     }
 
 
-
     public void setCodVaca(String codVaca) {
         this.codVaca = codVaca;
     }
-
-
 
     public String getCodBecerro() {
         return codBecerro;
     }
 
-
-
     public void setCodBecerro(String codBecerro) {
         this.codBecerro = codBecerro;
     }
-
-
 
     public String getNameVaca() {
         return nameVaca;
     }
 
-
-
     public void setNameVaca(String nameVaca) {
         this.nameVaca = nameVaca;
     }
-
-
 
     public String getNameBecerro() {
         return nameBecerro;
     }
 
-
-
     public void setNameBecerro(String nameBecerro) {
         this.nameBecerro = nameBecerro;
     }
-
-
-
     public String getFechaNacBecerro() {
         return fechaNacBecerro;
     }
-
-
 
     public void setFechaNacBecerro(String fechaNacBecerro) {
         this.fechaNacBecerro = fechaNacBecerro;
     }
 
-
-
     public String getSexoBecerro() {
-        return SexoBecerro;
+        return sexoBecerro;
     }
-
-
 
     public void setSexoBecerro(String sexoBecerro) {
-        SexoBecerro = sexoBecerro;
+        this.sexoBecerro = sexoBecerro;
     }
-
-
 
     public String getRaza() {
-        return Raza;
+        return raza;
     }
-
-
 
     public void setRaza(String raza) {
-        Raza = raza;
+        this.raza = raza;
     }
-
 
 
 
